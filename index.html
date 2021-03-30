@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="./CSS/css.css">
+	<link rel="stylesheet" type="text/css" href="./CSS/header.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
+	<!-- TODO: Include Font Awesome file here -->
+    <!-- TODO: Include Google Fonts file here -->
+</head>
+
+<body>
+    <!-- TODO: Include all your code for the header and home page here -->
+    <div class="header">
+
+    <div class="header-right">
+    	<button id="btn1">sign in</button>
+    	<button id="btn2">sign up</button>
+    </div>
+		<div class="logo">
+			ScriBBler
+		</div>
+		<div class="line">
+			Explore. Imagine. Create
+		</div>
+
+    </div>
+	<div class="postbuttons">
+		<button class="postbtn" onclick="window.location.href='./html/postslist.html'">All Posts</button>
+		<button class="postbtn" id="createpost">Create Post</button>
+
+	</div>
+	<div class="modal" id="Modal1">
+		<div class="modal-content">
+			<span class="close">&times</span>
+			<h1>Welcome Back</h1>
+			<hr>
+			<form>
+				<h4>Username</h4>
+				<input type="text" name="" required placeholder="Username">
+				<h4>Password</h4>
+				<input type="password" name="" required placeholder="Password">
+				<br><br>
+				<button id="sub1">Sign In</button>
+			</form>
+		</div>
+	</div>
+
+    <div class="modal" id="Modal2">
+		<div class="modal-content">
+			<span class="close">&times</span>
+			<h1>Get Started</h1>
+			<hr>
+    	<form>
+    		<h4>Full Name</h4>
+    		<input type="text" name="" required placeholder="Full Name">
+    		<h4>Username</h4>
+    		<input type="text" name="" required placeholder="Username">
+    		<h4>Password</h4>
+    		<input type="password" name="" required placeholder="Password">
+    		<h4>Confirm password</h4>
+    		<input type="passowrd" name="" required="" placeholder="Confirm Password">
+			<br><br>
+			<button id="sub2">Sign Up</button>
+    	</form>
+		</div>
+    </div>
+
+	<div class="modal" id="Modal3">
+		<div class="modal-content">
+			<span class="close">&times</span>
+			<h1>Pen Your Post</h1>
+			<hr>
+			<form>
+				<h4>Title</h4>
+				<input type="text" name="" required>
+				<h4>Content</h4>
+				<textarea rows="10" cols="50"></textarea>
+				<br><br>
+				<button id="createbtn">Sign Up</button>
+			</form>
+		</div>
+	</div>
+
+<script src="./javaScript/script.js"> </script>
+</body>
+
+</html>

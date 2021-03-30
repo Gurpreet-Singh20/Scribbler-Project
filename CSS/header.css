@@ -1,0 +1,41 @@
+.logo{
+  font-size: 50px;
+  color: #2519ff;
+  margin: 0px;
+  position: relative;
+  left:20px;
+  width: 50%;
+  font-family: 'Lobster', cursive;
+}
+.line{
+     font-size: 15px;
+     color: black;
+    position: relative;
+    left:20px;
+    width: 50%;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+}
+.header-right{
+	float: right;
+	line-height: 25px;
+	padding: 20px
+}
+.header{
+padding-right: 30px 10px;
+overflow: hidden;
+margin: 0px;
+}
+.header-right button{
+background-color:#2519ff;
+color:white;
+}
+button{
+ 	border: none;
+  color: black;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
